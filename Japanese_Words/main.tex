@@ -17,10 +17,12 @@
 \usepackage{indentfirst}
 
 % 首字母占两行
+\usepackage{silence}
+\WarningFilter{lettrine}{File loaded!}
 \usepackage{lettrine}
 
 % ipa 音标
-\usepackage{tipa}
+\usepackage[safe]{tipa}
 
 \usepackage[yyyymmdd]{datetime}
 
@@ -40,7 +42,7 @@
 \newfontfamily\headingfont[]{Consolas}
 \newCJKfontfamily\japanfont{UD Digi Kyokasho NK}
 \renewcommand{\maketitlehooka}{\headingfont}
-\title{\Huge WORD LIST}
+\title{\Huge 日本語語彙リスト}
 \date{\today}
 
 % 行距
